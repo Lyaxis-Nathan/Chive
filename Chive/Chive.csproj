@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-Chive-7764c2d0-b3c5-4e76-b19b-11d1f0a3f25a</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chive.Client\Chive.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.19" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
+    <PackageReference Include="Syncfusion.Blazor.Core" Version="30.2.6" />
+    <PackageReference Include="Syncfusion.Blazor.DataForm" Version="30.2.6" />
+    <PackageReference Include="Syncfusion.Blazor.Gantt" Version="30.2.6" />
+    <PackageReference Include="Syncfusion.Blazor.Inputs" Version="30.2.6" />
+    <PackageReference Include="Syncfusion.Blazor.Kanban" Version="30.2.6" />
+    <PackageReference Include="Syncfusion.Blazor.Layouts" Version="30.2.6" />
+    <PackageReference Include="Syncfusion.Blazor.Schedule" Version="30.2.6" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="30.2.6" />
+  </ItemGroup>
+
+</Project>
